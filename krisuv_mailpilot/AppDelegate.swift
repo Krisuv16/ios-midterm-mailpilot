@@ -1,9 +1,12 @@
-//
-//  AppDelegate.swift
-//  krisuv_mailpilot
-//
-//  Created by Krisuv Bohara on 2023-03-05.
-//
+/*
+AppDelegate.swift
+MAPD724-MidTerm
+ 
+Author: Krisuv Bohara (301274636)
+Date: 2023-03-05
+App Description: Landscape model Mail Pilot game made with Swift and SpriteKit
+*/
+
 
 import UIKit
 
@@ -16,6 +19,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
+    }
+    //for Landscape mode
+    func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+        return .landscape
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
